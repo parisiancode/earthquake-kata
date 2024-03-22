@@ -3,7 +3,8 @@ earthquakes.json
 design/design_api.odt
 
 # API keys and secrets
-.env
+# Remove comment to ignore, for this first version I push the env
+# .env 
 
 # Dependency directory
 node_modules
