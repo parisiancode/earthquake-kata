@@ -1,36 +1,39 @@
 # earthquake-kata
 Get earthquakes data from open source API
 
-# Project configuration
-NodeJs version 20.11.1
-npm version 10.5.0
+[Design API guidelines](/design)
 
-# Quick Start
+## Project configuration
+`NodeJs version 20.11.1`<br/>
+`npm version 10.5.0`
+
+## Quick Start
 Install Express Server and DotEnv depedencies
+>`npm i express dotenv`
+
 Dotenv is used to read environment variables from the .env file (Not ignored for this first version)
 
-> npm i express dotenv
-
 Install TypeScript
-> npm install -g typescript
+> `npm install -g typescript`
 
 Build the project
-> npm run build
+> `npm run build`
 
 Start the project
-> npm run start
+> `npm run start`
 
-Once started, you could retrieve messages in your console log 
+Once started, you should retrieve this message in your console log 
 > Server Up and Running. Listen on port 3000
 
 Access through http://localhost:3000/
 
-# DataStorage
-It has been decided on this first version to save earthquake item to a local file named : earthquakes.json from .env properties.
+## DataStorage
+It has been decided on this first version to save earthquake item to a local file named ``earthquakes.json`` from `.env` properties.
 
-# How to add items from a specific day
+## How to add items from a specific day
 <URL_Path>/add?day=<YYYY-MM-DD>
 Example : http://localhost:3000/add?day=2024-03-22
 
-# 404 Not Found
+## 404 Not Found
+> [!NOTE]
 Only "/" and "/add" are allowed, otherwise, a 404 error will be display
