@@ -1,6 +1,10 @@
 # earthquake-kata
 Get earthquakes data from open source API
 
+When server starts, an initial download is done from 2024-03-08 to today's date, then it is possible to add items from a specific date (See below)
+For saving time purpose, it was decided to save the data in a local file and each time the server starts, it is reset.
+We also do not check id unicity when adding new items from a specific day neither date input format.
+
 [Design API guidelines](/design)
 
 ## Project configuration
