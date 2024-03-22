@@ -4,16 +4,17 @@ Get earthquakes data from open source API
 [Design API guidelines](/design)
 
 ## Project configuration
-`NodeJs version 20.11.1`<br/>
-`npm version 10.5.0`
+`NodeJs 20.11.1`<br/>
+`npm 10.5.0`<br/>
+`TypeScript 5.4.2`
 
 ## Quick Start
 Install Express Server and DotEnv depedencies
->`npm i express dotenv`
+> `npm i express dotenv`
 
 Dotenv is used to read environment variables from the .env file (Not ignored for this first version)
 
-Install TypeScript
+If not already done (check tsc -v), install TypeScript
 > `npm install -g typescript`
 
 Build the project
@@ -36,4 +37,4 @@ Example : http://localhost:3000/add?day=2024-03-22
 
 ## 404 Not Found
 > [!NOTE]
-Only "/" and "/add" are allowed, otherwise, a 404 error will be display
+Only "/" and "/add" are allowed, otherwise, a 404 Not Found error will be display
