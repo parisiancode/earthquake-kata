@@ -1,0 +1,28 @@
+# Earthquake file generated
+earthquakes.json
+design/design_api.odt
+
+# API keys and secrets
+.env
+
+# Dependency directory
+node_modules
+bower_components
+
+# Editors
+.vscode
+
+# Ignore built ts files
+build/
+
+# Ignore generate cache
+*.tsbuildinfo
+
+# Log files
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
