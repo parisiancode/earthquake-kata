@@ -47,7 +47,7 @@ async function fetchQueries(queryToFetch: string, isInit: boolean): Promise<any>
                 } else {
                     const myJson = JSON.parse(fs.readFileSync(db_storage));
                     const myList = addFetchItems(data);
-                    for (const item in myList) {
+                    for (let item of myList) {
                         myJson.push(item);
                     }
                     generateDatasource(myJson);
